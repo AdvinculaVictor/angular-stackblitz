@@ -8,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContadorComponent implements OnInit {
 
-  constructor() { }
+  contador:number=0;
+  
+  constructor() { 
+  }
 
   ngOnInit() {
   }
