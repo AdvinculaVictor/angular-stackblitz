@@ -9,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class ContadorComponent implements OnInit {
 
   contador:number=0;
-  
+  persona = {
+    nombre: 'Victor Aguilar',
+    edad: '46'
+  }
   constructor() { 
   }
 

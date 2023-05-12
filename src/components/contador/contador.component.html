@@ -1,1 +1,12 @@
-<button (click)="contador = contador - 1" class="btn btn-danger"> - </button>{{ contador }}<button (click)="contador = contador + 1" class="btn btn-success"> + </button>
+<br>
+<hr>
+
+<p>Mi nombre es: {{persona.nombre}}</p>
+<p>Mi edad es:    {{persona.edad}}
+<br>
+<hr>
+<button (click)="contador = contador - 1" class="btn btn-danger"> - </button>
+<button type="button" class="btn btn-primary">
+  Contador <span class="badge badge-primary">{{ contador }}</span>
+</button>
+<button (click)="contador = contador + 1" class="btn btn-success"> + </button>
